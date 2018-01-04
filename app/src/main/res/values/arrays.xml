@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="hot_game">
+        <item>王者荣耀</item>
+        <item>穿越火线</item>
+        <item>我的世界</item>
+        <item>球球大作战</item>
+        <item>火影忍者</item>
+        <item>节奏大师</item>
+        <item>滚动的天空</item>
+        <item>迷你世界</item>
+        <item>阴阳师</item>
+        <item>崩坏3</item>
+        <item>部落冲突</item>
+        <item>一起来飞车</item>
+        <item>皇室战争</item>
+        <item>泰拉瑞亚</item>
+        <item>全民枪战</item>
+        <item>天天酷跑</item>
+        <item>元气骑士</item>
+        <item>侠盗猎车手:圣安地列斯</item>
+        <item>天天炫斗</item>
+        <item>时空召唤</item>
+        <item>英雄枪战</item>
+        <item>贪吃蛇大作战</item>
+        <item>海岛奇兵</item>
+        <item>跳舞的线</item>
+        <item>植物大战僵尸2</item>
+        <item>造梦西游OL</item>
+        <item>别踩白块儿2</item>
+        <item>欢乐球吃球</item>
+        <item>魂斗罗：归来</item>
+        <item>碧蓝航线</item>
+    </array>
+    <array name="wonderful_life">
+        <item></item>
+    </array>
+</resources>
