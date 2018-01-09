@@ -1,21 +1,20 @@
 package com.example.code.screenrecorder;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import com.example.code.screenrecorder.common.BaseActivity;
 
 public class SplashActivity extends BaseActivity {
     @Override
-    void setContentView() {
+    public void setContentView() {
 
     }
 
     @Override
-    void initView() {
+    public void initView() {
 
     }
 
     @Override
-    void initData() {
+    public void initData() {
 
     }
 }

@@ -1,4 +1,4 @@
-package com.example.code.screenrecorder;
+package com.example.code.screenrecorder.common;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -19,7 +19,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         initData();
     }
 
-    abstract void setContentView();
-    abstract void initView();
-    abstract void initData();
+    public abstract void setContentView();
+    public abstract void initView();
+    public abstract void initData();
 }
