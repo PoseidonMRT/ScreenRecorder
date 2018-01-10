@@ -6,23 +6,23 @@
     android:enabled="true"
     android:icon="@drawable/main_bottom_screenrecord_drawable_state_list"
     android:title="@string/main_bottom_bar_screen_record"
-    app:showAsAction="always" />
+    app:showAsAction="ifRoom" />
   <item
     android:id="@+id/main_bottom_video_manager"
     android:enabled="true"
     android:icon="@drawable/main_bottom_videomanager_drawable_state_list"
     android:title="@string/main_bottom_bar_video_manager"
-    app:showAsAction="always" />
+    app:showAsAction="ifRoom" />
   <item
     android:id="@+id/main_bottom_discover"
     android:enabled="true"
     android:icon="@drawable/main_bottom_discover_state_list"
     android:title="@string/main_bottom_bar_discover"
-    app:showAsAction="always" />
+    app:showAsAction="ifRoom" />
   <item
     android:id="@+id/main_bottom_match"
     android:enabled="true"
     android:icon="@drawable/main_bottom_match_drawable_state_list"
     android:title="@string/main_bottom_bar_math"
-    />
+    app:showAsAction="ifRoom" />
 </menu>
