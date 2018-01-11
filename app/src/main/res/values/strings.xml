@@ -1,3 +1,8 @@
 <resources>
   <string name="app_name">ScreenRecorder</string>
+  <!-- MainActivity String resource -->
+  <string name="main_bottom_screen_record">Main</string>
+  <string name="main_bottom_video_manager">VideoManager</string>
+  <string name="main_bottom_match">Match</string>
+  <string name="main_bottom_discover">Discover</string>
 </resources>

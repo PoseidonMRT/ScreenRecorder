@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">录屏大师</string>
+    <!-- MainActivity String resource -->
+  <string name="main_bottom_screen_record">主页</string>
+  <string name="main_bottom_video_manager">视频</string>
+  <string name="main_bottom_match">陪练|赛事</string>
+  <string name="main_bottom_discover">发现</string>
 </resources>
