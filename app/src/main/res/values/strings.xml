@@ -5,4 +5,7 @@
   <string name="main_bottom_video_manager">VideoManager</string>
   <string name="main_bottom_match">Match</string>
   <string name="main_bottom_discover">Discover</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
