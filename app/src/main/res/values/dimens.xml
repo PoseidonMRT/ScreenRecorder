@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+  <dimen name="navigation_top_bar_height">48dp</dimen>
+  <dimen name="main_top_bar_title_text_size">20sp</dimen>
+  <dimen name="main_top_bar_image_margin">8dp</dimen>
 </resources>

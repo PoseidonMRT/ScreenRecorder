@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  android:orientation="vertical"
   android:background="@color/color_FFFFFF"
   tools:context="com.example.code.screenrecorder.MainActivity">
+  <com.example.code.screenrecorder.common.widget.NavigationTopBar
+    android:id="@+id/main_top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation_top_bar_height"></com.example.code.screenrecorder.common.widget.NavigationTopBar>
+
+  <FrameLayout
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+  </FrameLayout>
 
   <android.support.design.widget.BottomNavigationView
     android:id="@+id/main_bottom_navigation_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/main_bottom_background"
-    android:layout_alignParentBottom="true"
     app:itemTextColor="@drawable/main_bottom_text_color_state_list"
     app:menu="@menu/main_bottom_bar_menu">
 
   </android.support.design.widget.BottomNavigationView>
-</RelativeLayout>
+</LinearLayout>
